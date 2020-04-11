@@ -7,13 +7,13 @@
 npm install
 ```
 
-### Start Dev Server
+### Development
 
 ```
 npm start
 ```
 
-### Build Prod Version
+### Build
 
 ```
 npm run build
