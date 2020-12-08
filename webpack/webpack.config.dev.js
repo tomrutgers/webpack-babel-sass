@@ -11,7 +11,8 @@ module.exports = merge(common, {
   },
   devServer: {
     inline: true,
-    hot: true
+    hot: true,
+    port: 8888
   },
   plugins: [
     new Webpack.DefinePlugin({
@@ -26,7 +27,8 @@ module.exports = merge(common, {
         enforce: 'pre',
         loader: 'eslint-loader',
         options: {
-          emitWarning: true
+          emitWarning: true,
+          fix: true
         }
       },
       {
